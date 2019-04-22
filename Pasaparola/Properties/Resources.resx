@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="s_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="j_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\j_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="k_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Skor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Skor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="u_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\u_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ö" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ö.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="u_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\u_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="u_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\u_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ş" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ş.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="v" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="v_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\t.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="o_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\o_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pas1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ı_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ı_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="h_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\h_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GameArkaPlan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GameArkaPlan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\l.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ş_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ş_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ç_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ç_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="l_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\l_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ş_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ş_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dogru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dogru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yanlis1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yanlis1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="panelarkaplan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\panelarkaplan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GameExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GameExit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oyunbasla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oyunbasla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ö_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ö_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="v_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cevap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cevap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Home_ArkaPlan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home_ArkaPlan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yanlis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yanlis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ü_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ü_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ü_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ü_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ı_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ı_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="r_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\r_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ç_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ç_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\t_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ç_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ç_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="o_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\o_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\t_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="h_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\h_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nasıloynanırArkaPlan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nasıloynanırArkaPlan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ü" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ü.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="j_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\j_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ö_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ö_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="y_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\y_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oyunaBasla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oyunaBasla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="k_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="h_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\h_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="v_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="k_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\k_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="l_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\l_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="t_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\t_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="j_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\j_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skorArkaPlan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skorArkaPlan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="r_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\r_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="z_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\z_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ö_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ö_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="o" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ü_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ü_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ç" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ç.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="g_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\g_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="r_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\r_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ş_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ş_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ı" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ı.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p_yesil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p_yesil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dogru1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dogru1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="j" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\j.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ı_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ı_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="l_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\l_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="o_sari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\o_sari.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nasılOynanır" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nasılOynanır.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d_kirmizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d_kirmizi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\i.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\r.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="u" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\u.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
